@@ -1,1 +1,7 @@
-/home/prem/.vim/.vimrc
+" set tabstop 4
+set tabstop 4
+
+" set autoindent
+set autoindent
+
+
