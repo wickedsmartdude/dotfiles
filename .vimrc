@@ -12,7 +12,8 @@ inoremap <leader>- <esc>ddi<CR>
 " vertical split
 nnoremap <leader>vs :vsplit<CR>
 
-" TODO mapping for editing .vimrc file efficiently
+"  mapping for editing .vimrc file efficiently
+noremap <leader>ev :vsplit %MYVIMRC<CR>
 
 " searching options
 
@@ -20,3 +21,6 @@ set incsearch
 set ignorecase
 set smartcase
 
+" fast switching of tabs
+nnoremap <S-tab> :tabprevious<CR>
+nnoremap <tab> :tabnext<CR>
