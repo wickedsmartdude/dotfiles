@@ -21,3 +21,6 @@ set incsearch
 set ignorecase
 set smartcase
 
+" fast switching of tabs
+nnoremap <S-tab> :tabprevious<CR>
+nnoremap <tab> :tabnext<CR>
