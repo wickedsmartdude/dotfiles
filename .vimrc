@@ -12,7 +12,7 @@ inoremap <leader>- <esc>ddi<CR>
 " vertical split
 nnoremap <leader>vs :vsplit<CR>
 
-" TODO mapping for editing .vimrc file efficiently
+" mapping for editing .vimrc file efficiently
 nnoremap <leader>ev :vsplit $MYVIMRC<CR>
 
 " searching options
